@@ -25,7 +25,7 @@ SECRET_KEY = 'x-d$!4&o_=s9azrwh%+#8w4ov=gz)&2mgl9-@d03hbd%+mhu+*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["http://scads88.pythonanywhere.com/"]
+ALLOWED_HOSTS = ["scads88.pythonanywhere.com"]
 
 
 # Application definition
@@ -121,7 +121,7 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-
+"""
 
 STATICFILES_DIRS=[
         os.path.join(BASE_DIR, "static"),
@@ -130,3 +130,5 @@ STATICFILES_DIRS=[
 
 
 STATIC_ROOT=os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+
+"""
